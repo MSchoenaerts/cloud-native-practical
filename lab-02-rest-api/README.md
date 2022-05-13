@@ -211,11 +211,13 @@ To enable Swagger we need to.
 
 ```
 <dependency>
-    <groupId>io.springfox</groupId>
-    <artifactId>springfox-swagger2</artifactId>
-    <version>2.9.2</version>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-ui</artifactId>
+    <version>1.6.8</version>
 </dependency>
 ```
+
+More info: https://springdoc.org/
 
 - Enable Spring Swagger support:
 
@@ -245,9 +247,9 @@ This JSON view is mostly for machine-to-machine API documentation. We'll also ad
 
 ```
 <dependency>
-    <groupId>io.springfox</groupId>
-    <artifactId>springfox-swagger-ui</artifactId>
-    <version>2.9.2</version>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-ui</artifactId>
+    <version>1.6.8</version>
 </dependency>
 ```
 
