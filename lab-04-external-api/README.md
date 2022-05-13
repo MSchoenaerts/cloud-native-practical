@@ -33,7 +33,7 @@ To add this BOM we should pick a release train and define this in our pom.xml:
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-dependencies</artifactId>
-            <version>Greenwich.RELEASE</version>
+            <version>2021.0.2</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
